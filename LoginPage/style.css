@@ -1,0 +1,111 @@
+html{
+    background: url(images/background.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-sixe: cover;
+        background-size: cover;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(52, 73, 94, 0.7);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    border-radius: 120px;
+    border: 1px solid rgba(52, 73, 94, 0.7);
+}
+
+.container img:hover{
+     border: 3px solid #27AE60;
+}
+
+input[type='text'], input[type='password']{
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    background-color: #fff;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+input[type='text']:hover, input[type='password']:focus{
+    border: 3px solid #27AE60;
+}
+
+input[type="submit"]{
+    color: #fff;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+form-input:before{
+    background: url(images/avatar.jpg);
+    content:"\f007";
+    position: absolute;
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color:#985986;
+    padding-top: 5px;
+    font-family: 35px;
+}
+
+.btn-login{
+    width: 170px;
+    height: 50px;
+    padding: 15px 25px;
+    background-color: #2ECC71;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 4px solid #27AE60;    
+    margin-bottom: 10px;
+}
+
+.btn-login:hover{
+    opacity: 0.9;
+    box-shadow: 2px 1px  5px #27AE60;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+a:hover{
+    color:coral;
+    font-weight: bold;
+}
+
+footer{
+    margin: 0;
+}
+
+footer p{
+   float: right;
+    margin-right: 20px;
+    margin-top: 55px;
+    color: white;
+    font-familt: sans-serif;
+}
+
+.footer-text{
+    color: white;
+}
+
+footer-text:hover{
+    color: white;
+}
