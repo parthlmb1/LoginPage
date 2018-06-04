@@ -1,4 +1,4 @@
 # LoginPage
 
-Login form created with HTML5 and CSS
+Login form created with HTML and CSS
 
